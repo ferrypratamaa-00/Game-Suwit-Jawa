@@ -1,0 +1,4 @@
+Vesion 1.0.0
+- standart javanese suwit game
+Vesion 1.1.0
+- add button start

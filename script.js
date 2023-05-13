@@ -17,6 +17,10 @@ const win = document.getElementById("win");
 const lost = document.getElementById("lost");
 const seri = document.getElementById("seri");
 
+const start = document.getElementById('img-start');
+const startBox = document.querySelector('.start');
+const container = document.querySelector('.container');
+
 var hasil = "",
   score = {
     match: 0,
@@ -73,6 +77,11 @@ function infoBoard(match, win, lost, seri) {
 Event Button
 
 */
+
+start.addEventListener('click', function(){
+container.style.top = "15px";
+startBox.style.display = "none";
+});
 
 // elephant state is clicked
 gajah.addEventListener("click", function () {
@@ -162,7 +171,7 @@ semut.addEventListener("click", function () {
 
     info.innerHTML = "Kalah!";
     hasil = "kalah";
-  } else {
+  } else { 
     quesComp.removeAttribute("src");
     quesComp.setAttribute("src", "img/gajah.png");
 
