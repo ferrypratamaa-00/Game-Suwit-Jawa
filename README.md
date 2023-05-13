@@ -1,4 +1,4 @@
-# Game-Suwit-Jawa
+# Javanese Suwit Game
 This is a Javanese suwit game made using JavaScript, this game was made based on a modification of the Javanese suwit game made in the WPU tutorial video from YouTube
 
 this game is a little different from the original because there are some additional features that I provide
